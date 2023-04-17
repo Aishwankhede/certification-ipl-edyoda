@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Teams</title>
+    <link rel="icon" type="image/x-icon" href="logo-img9" />
+    <!--- style sheet -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!--- font awesome -->
+
+    <script src="https://kit.fontawesome.com/6f5013579e.js" crossorigin="anonymous"></script>
+
+    <!-----Jquery cdn--->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!------google-font----->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <div id="head-con3">
+            <div id="head-right">
+                <div class="logo">
+                    <a href="./index.html"><h4><b>Indian Cricket Team</b></h4></a>
+                  </div>
+               <a href="./index.html"> <button id="home-button" class="add-button">Home</button></a>
+            </div>
+         
+        </div>
+    </header>
+
+    <h2 class="section-heading">Add Team Details</h2>
+    <div id="add-team">
+        
+        <form id="addteamform">
+            <p>Team Name</p>
+            <input id="inp1" type="text" name="teamName" placeholder="Enter team name here.." required>
+            <p>Team logo Url</p>
+            <input id="inp3" type="text" name="logoUrl" placeholder="enter logo URL here.." required> 
+            <p>Won count</p>
+            <input id="inp4" type="number" name="wonCount" maxlength="1" placeholder="enter won count here.." required>
+
+            <button type="submit">Add team</button>  
+            
+        </form>
+
+    </div>
+
+    <!-- Footer Start -->
+
+    <footer>
+        <div
+          style="
+            width: 60%;
+            padding: 20px 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-left: 500px;
+            text-decoration: none;
+          "
+          class="footer-primary"
+        >
+          <ul>
+            <li>@ 2023 cricket.com | All rights reserved</li>
+          </ul>
+        </div>
+      </footer>
+      <!-- Footer End -->
+  
+
+    <script src="./addteam.js">
+
+
+
+    </script>
+    
+</body>
+</html>
